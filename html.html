@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 0px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Big green online fruits vendor</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="product">
+            <h2>Apple</h2>
+            <img src="C:\Users\student\Desktop\download.jpg" alt="Apple Image" width="100">
+            <p>Variety of Kashmir apples.</p>
+            <p>Price: Rs.100.00</p>
+            <button onclick="addToCart('Apple')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h2>Jackfruit</h2>
+            <img src="C:\Users\student\Desktop\download (1).jpg" alt="Jackfruit Image" width="100">
+            <p>Jackfruit from Brazil.</p>
+            <p>Price: Rs.200.00</p>
+            <button onclick="addToCart('Jackfruit')">Add to Cart</button>
+        </div>
+<div class="product">
+            <h2>Mango</h2>
+            <img src="C:\Users\student\Desktop\download (2).jpg" alt="Mango Image" width="100">
+            <p>Mango from Venezuela.</p>
+            <p>Price: Rs.250.00</p>
+            <button onclick="addToCart('Mango')">Add to Cart</button>
+        </div>
+
+        <!-- Add more products here -->
+    </div>
+    <footer>
+        <p>&copy; 2024 Big Green fruits vendor. All rights reserved.</p>
+    </footer>
+padding: 0 0px;
+
+
+    <script>
+        function addToCart(productName) {
+            // Here you can implement the logic to add the product to the cart
+            alert(productName + " added to cart!");
+        }
+    </script>
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 px;
+    max-height: 100px;
+    overflow-y: auto; 
+}
+
+</body>
+</html>
+
